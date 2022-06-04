@@ -1,0 +1,26 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+/*----------------------header-----------------------------*/
+.nav {
+
+}
+.ul {
+    display: inline;
+   
+}
+.li {
+    cursor: pointer;
+
+}
+/*----------------------contacts---------------------------*/
+.inner_contacts {
+    display: flex ;
+    flex-direction: row;
+}
+/*----------------------footer-----------------------------*/
+.wrap_footer {
+    display: flex;
+    flex-direction: column;
+}

@@ -11,31 +11,67 @@
 
 <body>
     <header>
+        <div class="wrap_header">
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="#about">About Me</a></li>
+                    <li class="li"><a href="#skills">Skills</a></li>
+                    <li class="li"><a href="#code">Code Example</a></li>
+                    <li class="li"><a href="#projects">Projects</a></li>
+                    <li class="li"><a href="#languages">Languages</a></li>
+                    <li class="li"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="section_about" id="about">
-        <h2 class="h2">About me</h2>    
+            <h2 class="h2">About me</h2>
         </section>
         <section class="section_skills" id="skills">
-            <h2 class="h2">Skills</h2>    
+            <h2 class="h2">Skills</h2>
         </section>
         <section class="section_code" id="code">
-            <h2 class="h2">Code example</h2>    
+            <h2 class="h2">Code example</h2>
+            <p>
+            <code>
+                function highAndLow(numbers){
+                    let maxnum = 0
+                    let minnum =0 
+                    
+                    for (let i =0; i<=numbers.length-1; i++) {
+                         maxnum= Number(numbers[i])>maxnum ? Number(numbers[i]) : maxnum;
+                         minnum= Number(numbers[i])<minnum ? Number([i]) : minnum;
+                      
+                    }
+                    return `${maxnum} ${minnum}`
+                  }
+            </code> 
+            </p>  
         </section>
         <section class="projects" id="projects">
-            <h2 class="h2">Projects</h2>    
+            <h2 class="h2">Projects</h2>
         </section>
         <section class="section_languages" id="languages">
-            <h2 class="h2">Languages</h2>    
+            <h2 class="h2">Languages</h2>
         </section>
         <section class="section_contacts" id="contacts">
-            <h2 class="h2">Contacts</h2>    
+            <h2 class="h2">Contacts</h2>
+            <div class="inner_contacts">
+                <h3 class="h3">Location: Brest, Belarus</h3>
+                <h3 class="h3">Phone: +375297242898</h3>
+                <h3 class="h3">E-mail: lozdm@yandex.ru</h3>
+            </div>
         </section>
 
     </main>
     <footer>
         <div class="wrap_fotter">
-            </div.wrap_fotter>
+            <img src="./ASSETS/SVG/github.svg" alt="github">
+            <h3>2022</h3>
+            <img src="./ASSETS/SVG/rsschool.svg">
+
+        </div>
     </footer>
 </body>
 
