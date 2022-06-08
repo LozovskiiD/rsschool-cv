@@ -7,12 +7,21 @@ html {
 
 }
 .ul {
-    display: inline;
+    display: flex;
+    list-style: none;
    
 }
 .li {
-    cursor: pointer;
+  
 
+}
+.li a {
+    text-decoration: none;
+    padding-right: 30px;
+    
+.li a:hover {
+    cursor: pointer;
+}
 }
 /*----------------------contacts---------------------------*/
 .inner_contacts {
