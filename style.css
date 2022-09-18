@@ -1,35 +1,97 @@
+:root {
+    --color-header:rgb(50,150,255);
+}
 html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:400;   
+    background-color: rgb(211, 235, 226);
+}
+.container {    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: rgb(220, 233, 228);
+    width: 1200px;
+}
+.h2 {   
+    padding-left: 10px;
+    font-family: Cairo, 'Georgia', 'Times New Roman',sans-serif ;
+    font-size: 24px;
+    color: var(--color-header)
+}
+.p {  
+    padding-left: 10px;
+    font-family: 'Georgia', 'Times New Roman',sans-serif ;
+    font-size: 18px;
+}
+.span_line{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;   
+    height: 1px;
+    background-color: var(--color-header);
 }
 /*----------------------header-----------------------------*/
-.nav {
-
+.wrap_header {  
+    padding-top: 20px; 
+    display: flex;
+    flex-direction: row;   
+    font-size: 24px;
+    font-weight:700; 
+    align-items: center;  
+    justify-content: space-around;
 }
+.wrap_header img {
+    height:150px;
+    border-radius: 10px;
+}
+.nav {     
+    /* color: rgb(103, 125, 187);    */   
+}   
 .ul {
     display: flex;
     list-style: none;
-   
+    list-style-type: none;     
 }
-.li {
-  
-
+.li {   
+    padding-right: 30px;  
 }
 .li a {
-    text-decoration: none;
-    padding-right: 30px;
-    
+     text-decoration: none; 
+     color: blue;   
+}      
 .li a:hover {
-    cursor: pointer;
-}
+    cursor: pointer;  
+    color: var(--color-header);
+    transition: color 0.5s; 
 }
 /*----------------------contacts---------------------------*/
 .inner_contacts {
+    margin-bottom: 20px;
     display: flex ;
     flex-direction: row;
+    justify-content: space-around;
 }
 /*----------------------footer-----------------------------*/
 .wrap_footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+    background-color: rgb(110, 223, 223);
 }
+
