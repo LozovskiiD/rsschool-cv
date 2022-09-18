@@ -8,7 +8,7 @@ __________________________________
 
 ## About me 
 I work in a small software company as a software engineer and I want to gain new knowledge and skills.
-________________________________________
+____________________________________
 ## Skills 
 I have programming skills in Visual Foxpro. 
 ________________________________
