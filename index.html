@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Encode+Sans+SC&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="wrap_header">
+                <img src="./ASSETS/avatar.jpg" alt="avatar.jpg">
+
+                <nav class="nav">
+                    <ul class="ul">
+                        <li class="li"><a href="#about">About Me</a></li>
+                        <li class="li"><a href="#skills">Skills</a></li>
+                        <li class="li"><a href="#code">Code Example</a></li>
+                        <li class="li"><a href="#projects">Projects</a></li>
+                        <li class="li"><a href="#languages">Languages</a></li>
+                        <li class="li"><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section_about" id="about">
+                <h2 class="h2">About me</h2>
+                <p class="p">
+                    I work in a small software company as a software engineer and I want to gain new knowledge and
+                    skills.
+                </p>
+                <span class="span_line"></span>
+            </section>
+            <section class="section_skills" id="skills">
+                    <h2 class="h2">Skills</h2>
+                    <p class="p">
+                        I have programming skills in Visual Foxpro.
+                    </p>
+                    <span class="span_line"></span>
+            </section>
+            <section class="section_code" id="code">
+                    <h2 class="h2">Code example</h2>
+                    <pre>
+                        function highAndLow(numbers){
+                            let maxnum = 0
+                            let minnum =0                             
+                            for (let i =0;&lt;=numbers.length-1; i++) {
+                                 maxnum= Number(numbers[i])>maxnum ? Number(numbers[i]) : maxnum;
+                                 minnum= Number(numbers[i])&lt;minnum ? Number([i]) : minnum;                              
+                            }
+                            return `${maxnum} ${minnum}`
+                          }
+                    </pre>
+                    <span class="span_line"></span>
+            </section>
+            <section class="projects" id="projects">
+                    <h2 class="h2">Projects</h2>
+                    <p class="p">
+                        All my developments are desktop applications, so I can't give a link to them. But I hope that
+                        soon I will be able to show my skills and capabilities in frontend development
+                    </p>
+                    <span class="span_line"></span>
+            </section>
+            <section class="section_languages" id="languages">
+                    <h2 class="h2">Languages</h2>
+                    <p class="p">
+                        Russian, Belarussian, English (A2)
+                    </p>
+                    <span class="span_line"></span>
+            </section>
+            <section class="section_contacts" id="contacts">
+                    <h2 class="h2">Contacts</h2>
+                    <div class="inner_contacts">
+                        <h3 class="h3">Location: Brest, Belarus</h3>
+                        <h3 class="h3">Phone: +375297242898</h3>
+                        <h3 class="h3">E-mail: lozdm@yandex.ru</h3>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <div class="wrap_footer">
+                <a href="https://github.com/LozovskiiD?tab=repositories" target="_blank"><img
+                        src="./ASSETS/SVG/github.svg" alt="github" width="40"></a>
+                <h3>2022</h3>
+                <a href="https://rs.school/js-stage0/" target="_blank"><img src="./ASSETS/SVG/rs_school.svg" alt="rsschool" width="50"></a>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
